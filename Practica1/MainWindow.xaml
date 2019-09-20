@@ -16,34 +16,36 @@
         <Label Content="Base:" HorizontalAlignment="Left" Margin="21,60,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <TextBox x:Name="boxM_3" HorizontalAlignment="Left" Width="121" Margin="151.879,86,0,652" Grid.Column="1"/>
         <Label Content="Altura:" HorizontalAlignment="Left" Margin="151.879,60,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button x:Name="BtnMultplicar"  Content="Multiplicar" HorizontalAlignment="Left" Margin="289.879,86,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnMulti_Click"/>
+        <Button x:Name="BtnMultplicar"  Content="Calcular" HorizontalAlignment="Left" Margin="289.879,86,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnMulti_Click"/>
         <TextBlock  x:Name="txt_ResultadoM" HorizontalAlignment="Left" Margin="419.879,86,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="24" Width="58" Grid.Column="1"/>
         <Label Content="Area:" HorizontalAlignment="Left" Margin="406,60,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        
+
         <TextBox x:Name="boxT_2_Copy" HorizontalAlignment="Left" Width="121" Margin="21,182,0,556" Grid.ColumnSpan="2"/>
         <Label Content="Triangulo:" HorizontalAlignment="Left" Margin="21,132,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <Label Content="Base:" HorizontalAlignment="Left" Margin="21,156,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <TextBox x:Name="boxT_3_Copy" HorizontalAlignment="Left" Width="121" Margin="152,182,0,556" Grid.Column="1"/>
         <Label Content="Altura:" HorizontalAlignment="Left" Margin="152,156,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button x:Name="BtnT_Copy"  Content="Multiplicar" HorizontalAlignment="Left" Margin="290,182,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnTrian_Click"/>
+        <Button x:Name="BtnT_Copy"  Content="Calcular" HorizontalAlignment="Left" Margin="290,182,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnTrian_Click"/>
         <TextBlock  x:Name="txt_ResultadoT_Copy" HorizontalAlignment="Left" Margin="420,182,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="24" Width="58" Grid.Column="1"/>
         <Label Content="Area:" HorizontalAlignment="Left" Margin="406,156,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-       
+
         <TextBox x:Name="boxC_2_Copy1" HorizontalAlignment="Left" Width="121" Margin="21,275,0,463" Grid.ColumnSpan="2"/>
         <Label Content="Circulo:" HorizontalAlignment="Left" Margin="21,225,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <Label Content="Radio:" HorizontalAlignment="Left" Margin="21,249,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Button x:Name="BtnC_Copy1"  Content="Multiplicar" HorizontalAlignment="Left" Margin="290,275,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnCircu_Click"/>
-        <TextBlock  x:Name="txt_ResultadoC_Copy1" HorizontalAlignment="Left" Margin="420,275,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="24" Width="58" Grid.Column="1"/>
+        <Button x:Name="BtnC_Copy1"  Content="Calcular" HorizontalAlignment="Left" Margin="290,275,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnCircu_Click"/>
+        <TextBlock  x:Name="txt_ResultadoC_Copy1" HorizontalAlignment="Left" Margin="420,283,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="39" Width="90" Grid.Column="1"/>
         <Label Content="Area:" HorizontalAlignment="Left" Margin="406,249,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        
-        <TextBox x:Name="boxM_2_Copy2" HorizontalAlignment="Left" Width="121" Margin="21,381,0,357" Grid.ColumnSpan="2"/>
-        <Label Content="Rectangulo:" HorizontalAlignment="Left" Margin="21,331,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Label Content="Base:" HorizontalAlignment="Left" Margin="21,355,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="boxM_3_Copy2" HorizontalAlignment="Left" Width="121" Margin="152,381,0,357" Grid.Column="1"/>
+
+        <TextBox x:Name="boxTr_2_Copy2" HorizontalAlignment="Left" Width="121" Margin="21,381,0,357" Grid.ColumnSpan="2"/>
+        <Label Content="Trapecio:" HorizontalAlignment="Left" Margin="21,331,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="Base Menor:" HorizontalAlignment="Left" Margin="21,355,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="boxTr_3_Copy2" HorizontalAlignment="Left" Width="121" Margin="152,381,0,357" Grid.Column="1"/>
         <Label Content="Altura:" HorizontalAlignment="Left" Margin="152,355,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button x:Name="BtnMultplicar_Copy2"  Content="Multiplicar" HorizontalAlignment="Left" Margin="290,381,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnMulti_Click"/>
-        <TextBlock  x:Name="txt_ResultadoM_Copy2" HorizontalAlignment="Left" Margin="420,381,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="24" Width="58" Grid.Column="1"/>
-        <Label Content="Area:" HorizontalAlignment="Left" Margin="406,355,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="BtnTr_Copy2"  Content="Calcular" HorizontalAlignment="Left" Margin="290,443,0,0" VerticalAlignment="Top" Width="88" Height="31" Grid.Column="1" Click="BtnTr_Click"/>
+        <TextBlock  x:Name="txt_ResultadoTr_Copy2" HorizontalAlignment="Left" Margin="420,443,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Height="24" Width="58" Grid.Column="1"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="406,417,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBox x:Name="boxTr_2_Copy" HorizontalAlignment="Left" Width="121" Margin="21,443,0,295" Grid.ColumnSpan="2"/>
+        <Label Content="Base Mayor:" HorizontalAlignment="Left" Margin="21,417,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
